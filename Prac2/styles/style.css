@@ -1,0 +1,30 @@
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+}
+.logo {
+  height: 4rem;
+}
+
+nav {
+  display: inline-block;
+}
+
+.encabezados {
+  margin: 20px;
+  color: blueviolet;
+}
+
+.encabezados > h3 {
+  font-size: 25px;
+
+  color: black;
+}
+
+.encabezados h3 ~ h3 {
+  font-size: 25px;
+  font-weight: bold;
+
+  color: black;
+}
